@@ -45,11 +45,11 @@ services:
       - monitoring
 
 
-  grafana:
-    image: grafana/grafana:latest
-    container_name: grafana
-    restart: unless-stopped
-    ports:
-      - 3000:3000
-    networks:
-      - monitoring
+  # grafana:
+  #   image: grafana/grafana:latest
+  #   container_name: grafana
+  #   restart: unless-stopped
+  #   ports:
+  #     - 3000:3000
+  #   networks:
+  #     - monitoring
